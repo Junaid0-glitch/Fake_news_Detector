@@ -6,6 +6,7 @@ This project is a Fake News Detection system using DistilBERT and PyTorch, with 
 
 - Live app - https://huggingface.co/spaces/junaid17/Fake_News_Detector
 - Repo - https://huggingface.co/spaces/junaid17/Fake_News_Detector/tree/main
+- The app could take upto 10s to load
 
 ## Features
 - Data preprocessing and visualization (Jupyter Notebook)
@@ -17,5 +18,6 @@ This project is a Fake News Detection system using DistilBERT and PyTorch, with 
 - `app.py`: Streamlit web app for fake news detection
 - `News_classifier.pt`: Trained PyTorch model weights
 - `tokenizer_distilbert/`: Saved tokenizer files
+
 
 
