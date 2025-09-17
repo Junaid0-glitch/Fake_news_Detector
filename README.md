@@ -2,6 +2,11 @@
 
 This project is a Fake News Detection system using DistilBERT and PyTorch, with a Streamlit web app for user interaction.
 
+## The app is hosted on HuggingFace
+
+- Live app - https://huggingface.co/spaces/junaid17/Fake_News_Detector
+- Repo - https://huggingface.co/spaces/junaid17/Fake_News_Detector/tree/main
+
 ## Features
 - Data preprocessing and visualization (Jupyter Notebook)
 - Model training using DistilBERT embeddings
@@ -13,23 +18,4 @@ This project is a Fake News Detection system using DistilBERT and PyTorch, with 
 - `News_classifier.pt`: Trained PyTorch model weights
 - `tokenizer_distilbert/`: Saved tokenizer files
 
-## Usage
-1. **Install dependencies**
-   ```powershell
-   pip install -r requirements.txt
-   ```
-2. **Run the Streamlit app**
-   ```powershell
-   streamlit run app.py
-   ```
-3. **Interact**
-   - Paste news text in the app to check if it is Fake or True.
 
-## Training
-- See the notebook for data loading, preprocessing, model training, and evaluation steps.
-
-## Model & Tokenizer
-- The model and tokenizer are saved after training and loaded in the app for inference.
-
-## Requirements
-See `requirements.txt` for all required Python packages.
